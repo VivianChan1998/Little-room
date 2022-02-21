@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(226, 206, 161);
+}
+
+.p5Canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+    margin-top: 10vh;
+}
