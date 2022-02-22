@@ -1,0 +1,217 @@
+{
+    "members": [
+        {
+            "code": 0,
+            "name": "wu",
+            "presentChance": 0.15,
+            "scrpit": {
+                "chairL": ["",""],
+                "chairR": ["",""],
+                "whiteBoardL": ["",""],
+                "whiteBoardR": ["",""],
+                "tableL": ["",""],
+                "tableC": ["",""],
+                "tableR": ["",""],
+                "windowL": ["",""],
+                "windowR": ["",""]
+            },
+            "img": [
+                "./src/0/temp.png",
+                "./src/0/temp.png",
+                "./src/0/temp.png",
+                "./src/0/temp.png",
+                "./src/0/temp.png",
+                "./src/0/temp.png",
+                "./src/0/temp.png",
+                "./src/0/temp.png",
+                "./src/0/temp.png"
+            ]
+        },
+        {
+            "code": 1,
+            "name": "be",
+            "presentChance": 0.6,
+            "scrpit": {
+                "chairL": ["",""],
+                "chairR": ["",""],
+                "whiteBoardL": ["",""],
+                "whiteBoardR": ["",""],
+                "tableL": ["",""],
+                "tableC": ["",""],
+                "tableR": ["",""],
+                "windowL": ["",""],
+                "windowR": ["",""]
+            },
+            "img": [
+                "./src/1/temp.png",
+                "./src/1/temp.png",
+                "./src/1/temp.png",
+                "./src/1/temp.png",
+                "./src/1/temp.png",
+                "./src/1/temp.png",
+                "./src/1/temp.png",
+                "./src/1/temp.png",
+                "./src/1/temp.png"
+            ]
+        },{
+            "code": 2,
+            "name": "shiro",
+            "presentChance": 0.65,
+            "scrpit": {
+                "chairL": ["",""],
+                "chairR": ["",""],
+                "whiteBoardL": ["",""],
+                "whiteBoardR": ["",""],
+                "tableL": ["",""],
+                "tableC": ["",""],
+                "tableR": ["",""],
+                "windowL": ["",""],
+                "windowR": ["",""]
+            },
+            "img": [
+                "./src/2/temp.png",
+                "./src/2/temp.png",
+                "./src/2/temp.png",
+                "./src/2/temp.png",
+                "./src/2/temp.png",
+                "./src/2/temp.png",
+                "./src/2/temp.png",
+                "./src/2/temp.png",
+                "./src/2/temp.png"
+            ]
+        },
+        {
+            "code": 3,
+            "name": "yuki",
+            "presentChance": 0.58,
+            "scrpit": {
+                "chairL": ["",""],
+                "chairR": ["",""],
+                "whiteBoardL": ["",""],
+                "whiteBoardR": ["",""],
+                "tableL": ["",""],
+                "tableC": ["",""],
+                "tableR": ["",""],
+                "windowL": ["",""],
+                "windowR": ["",""]
+            },
+            "img": [
+                "./src/3/temp.png",
+                "./src/3/temp.png",
+                "./src/3/temp.png",
+                "./src/3/temp.png",
+                "./src/3/temp.png",
+                "./src/3/temp.png",
+                "./src/3/temp.png",
+                "./src/3/temp.png",
+                "./src/3/temp.png"
+            ]
+        },
+        {
+            "code": 4,
+            "name": "bin",
+            "presentChance": 0.63,
+            "scrpit": {
+                "chairL": ["",""],
+                "chairR": ["",""],
+                "whiteBoardL": ["",""],
+                "whiteBoardR": ["",""],
+                "tableL": ["",""],
+                "tableC": ["",""],
+                "tableR": ["",""],
+                "windowL": ["",""],
+                "windowR": ["",""]
+            },
+            "img": [
+                "./src/4/temp.png",
+                "./src/4/temp.png",
+                "./src/4/temp.png",
+                "./src/4/temp.png",
+                "./src/4/temp.png",
+                "./src/4/temp.png",
+                "./src/4/temp.png",
+                "./src/4/temp.png",
+                "./src/4/temp.png"
+            ]
+        },
+        {
+            "code": 5,
+            "name": "fuyu",
+            "presentChance": 0.63,
+            "scrpit": {
+                "chairL": ["",""],
+                "chairR": ["",""],
+                "whiteBoardL": ["",""],
+                "whiteBoardR": ["",""],
+                "tableL": ["",""],
+                "tableC": ["",""],
+                "tableR": ["",""],
+                "windowL": ["",""],
+                "windowR": ["",""]
+            },
+            "img": [
+                "./src/5/temp.png",
+                "./src/5/temp.png",
+                "./src/5/temp.png",
+                "./src/5/temp.png",
+                "./src/5/temp.png",
+                "./src/5/temp.png",
+                "./src/5/temp.png",
+                "./src/5/temp.png",
+                "./src/5/temp.png"
+            ]
+        },{
+            "code": 6,
+            "name": "sa",
+            "presentChance": 0.45,
+            "scrpit": {
+                "chairL": ["",""],
+                "chairR": ["",""],
+                "whiteBoardL": ["",""],
+                "whiteBoardR": ["",""],
+                "tableL": ["",""],
+                "tableC": ["",""],
+                "tableR": ["",""],
+                "windowL": ["",""],
+                "windowR": ["",""]
+            },
+            "img": [
+                "./src/6/temp.png",
+                "./src/6/temp.png",
+                "./src/6/temp.png",
+                "./src/6/temp.png",
+                "./src/6/temp.png",
+                "./src/6/temp.png",
+                "./src/6/temp.png",
+                "./src/6/temp.png",
+                "./src/6/temp.png"
+            ]
+        },{
+            "code": 7,
+            "name": "yui",
+            "presentChance": 0.40,
+            "script": {
+                "chairL": ["",""],
+                "chairR": ["",""],
+                "whiteBoardL": ["",""],
+                "whiteBoardR": ["",""],
+                "tableL": ["",""],
+                "tableC": ["",""],
+                "tableR": ["",""],
+                "windowL": ["",""],
+                "windowR": ["",""]
+            },
+            "img": [
+                "./src/7/temp.png",
+                "./src/7/temp.png",
+                "./src/7/temp.png",
+                "./src/7/temp.png",
+                "./src/7/temp.png",
+                "./src/7/temp.png",
+                "./src/7/temp.png",
+                "./src/7/temp.png",
+                "./src/7/temp.png"
+            ]
+        }
+    ]
+}
