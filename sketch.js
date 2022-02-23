@@ -19,6 +19,8 @@ console.log(loc)
 let All = []
 let script = []
 let img = []
+let blackboard = []
+let blackboardID = 0
 
 function preload()
 {
@@ -46,12 +48,18 @@ function preload()
         console.log(isHere)
         console.log(All)
     });
+    for (var j=0; j < 5; ++j)
+    {
+        loadImage(`./src/background/blackboard/${j}.png`, e => blackboard.push(e) )
+    }
+    blackboardID = Math.floor(Math.random() * 10) 
+    console.log(blackboardID)
 }
 
 function setup()
 {
     createCanvas(900, 500);
-    frameRate(12);
+    frameRate(10);
 }
 
 function draw()
@@ -65,16 +73,16 @@ function draw()
         if(isHere[i])
         {
             let l = loc[i]
-            image(img[i][l], locXY[l][0], locXY[l][1], 160, 200)
+            let onScreenImg = image(img[i][l], locXY[l][0], locXY[l][1], 160, 200)
+            //onScreenImg.mouseOver(() => console.log(script[i][locList[l]][0]))
         }
     }
-
+    if (blackboardID < 5) image(blackboard[blackboardID], 0, 0, 900, 500)
 
 }
 
-function setScene()
-{
-    
+function resetScene() {
+    blackboardID = Math.floor(Math.random() * 10) 
 }
 
 function shuffle(array) {
@@ -82,4 +90,4 @@ function shuffle(array) {
       let j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
     }
-  }
+}

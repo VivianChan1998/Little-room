@@ -5,15 +5,15 @@
             "name": "wu",
             "presentChance": 0.15,
             "scrpit": {
-                "chairL": ["",""],
-                "chairR": ["",""],
-                "whiteBoardL": ["",""],
-                "whiteBoardR": ["",""],
-                "tableL": ["",""],
-                "tableC": ["",""],
-                "tableR": ["",""],
-                "windowL": ["",""],
-                "windowR": ["",""]
+                "chairL": ["hmmm","ha ha ha"],
+                "chairR": ["hmmm","ha ha ha"],
+                "whiteBoardL": ["hmmm","ha ha ha"],
+                "whiteBoardR": ["hmmm","ha ha ha"],
+                "tableL": ["hmmm","ha ha ha"],
+                "tableC": ["hmmm","ha ha ha"],
+                "tableR": ["hmmm","ha ha ha"],
+                "windowL": ["hmmm","ha ha ha"],
+                "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
                 "./src/0/temp.png",
@@ -32,15 +32,15 @@
             "name": "be",
             "presentChance": 0.6,
             "scrpit": {
-                "chairL": ["",""],
-                "chairR": ["",""],
-                "whiteBoardL": ["",""],
-                "whiteBoardR": ["",""],
-                "tableL": ["",""],
-                "tableC": ["",""],
-                "tableR": ["",""],
-                "windowL": ["",""],
-                "windowR": ["",""]
+                "chairL": ["hmmm","ha ha ha"],
+                "chairR": ["hmmm","ha ha ha"],
+                "whiteBoardL": ["hmmm","ha ha ha"],
+                "whiteBoardR": ["hmmm","ha ha ha"],
+                "tableL": ["hmmm","ha ha ha"],
+                "tableC": ["hmmm","ha ha ha"],
+                "tableR": ["hmmm","ha ha ha"],
+                "windowL": ["hmmm","ha ha ha"],
+                "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
                 "./src/1/temp.png",
@@ -58,15 +58,15 @@
             "name": "shiro",
             "presentChance": 0.65,
             "scrpit": {
-                "chairL": ["",""],
-                "chairR": ["",""],
-                "whiteBoardL": ["",""],
-                "whiteBoardR": ["",""],
-                "tableL": ["",""],
-                "tableC": ["",""],
-                "tableR": ["",""],
-                "windowL": ["",""],
-                "windowR": ["",""]
+                "chairL": ["hmmm","ha ha ha"],
+                "chairR": ["hmmm","ha ha ha"],
+                "whiteBoardL": ["hmmm","ha ha ha"],
+                "whiteBoardR": ["hmmm","ha ha ha"],
+                "tableL": ["hmmm","ha ha ha"],
+                "tableC": ["hmmm","ha ha ha"],
+                "tableR": ["hmmm","ha ha ha"],
+                "windowL": ["hmmm","ha ha ha"],
+                "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
                 "./src/2/temp.png",
@@ -85,15 +85,15 @@
             "name": "yuki",
             "presentChance": 0.58,
             "scrpit": {
-                "chairL": ["",""],
-                "chairR": ["",""],
-                "whiteBoardL": ["",""],
-                "whiteBoardR": ["",""],
-                "tableL": ["",""],
-                "tableC": ["",""],
-                "tableR": ["",""],
-                "windowL": ["",""],
-                "windowR": ["",""]
+                "chairL": ["hmmm","ha ha ha"],
+                "chairR": ["hmmm","ha ha ha"],
+                "whiteBoardL": ["hmmm","ha ha ha"],
+                "whiteBoardR": ["hmmm","ha ha ha"],
+                "tableL": ["hmmm","ha ha ha"],
+                "tableC": ["hmmm","ha ha ha"],
+                "tableR": ["hmmm","ha ha ha"],
+                "windowL": ["hmmm","ha ha ha"],
+                "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
                 "./src/3/temp.png",
@@ -112,15 +112,15 @@
             "name": "bin",
             "presentChance": 0.63,
             "scrpit": {
-                "chairL": ["",""],
-                "chairR": ["",""],
-                "whiteBoardL": ["",""],
-                "whiteBoardR": ["",""],
-                "tableL": ["",""],
-                "tableC": ["",""],
-                "tableR": ["",""],
-                "windowL": ["",""],
-                "windowR": ["",""]
+                "chairL": ["hmmm","ha ha ha"],
+                "chairR": ["hmmm","ha ha ha"],
+                "whiteBoardL": ["hmmm","ha ha ha"],
+                "whiteBoardR": ["hmmm","ha ha ha"],
+                "tableL": ["hmmm","ha ha ha"],
+                "tableC": ["hmmm","ha ha ha"],
+                "tableR": ["hmmm","ha ha ha"],
+                "windowL": ["hmmm","ha ha ha"],
+                "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
                 "./src/4/temp.png",
@@ -139,15 +139,15 @@
             "name": "fuyu",
             "presentChance": 0.63,
             "scrpit": {
-                "chairL": ["",""],
-                "chairR": ["",""],
-                "whiteBoardL": ["",""],
-                "whiteBoardR": ["",""],
-                "tableL": ["",""],
-                "tableC": ["",""],
-                "tableR": ["",""],
-                "windowL": ["",""],
-                "windowR": ["",""]
+                "chairL": ["hmmm","ha ha ha"],
+                "chairR": ["hmmm","ha ha ha"],
+                "whiteBoardL": ["hmmm","ha ha ha"],
+                "whiteBoardR": ["hmmm","ha ha ha"],
+                "tableL": ["hmmm","ha ha ha"],
+                "tableC": ["hmmm","ha ha ha"],
+                "tableR": ["hmmm","ha ha ha"],
+                "windowL": ["hmmm","ha ha ha"],
+                "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
                 "./src/5/temp.png",
@@ -165,15 +165,15 @@
             "name": "sa",
             "presentChance": 0.45,
             "scrpit": {
-                "chairL": ["",""],
-                "chairR": ["",""],
-                "whiteBoardL": ["",""],
-                "whiteBoardR": ["",""],
-                "tableL": ["",""],
-                "tableC": ["",""],
-                "tableR": ["",""],
-                "windowL": ["",""],
-                "windowR": ["",""]
+                "chairL": ["hmmm","ha ha ha"],
+                "chairR": ["hmmm","ha ha ha"],
+                "whiteBoardL": ["hmmm","ha ha ha"],
+                "whiteBoardR": ["hmmm","ha ha ha"],
+                "tableL": ["hmmm","ha ha ha"],
+                "tableC": ["hmmm","ha ha ha"],
+                "tableR": ["hmmm","ha ha ha"],
+                "windowL": ["hmmm","ha ha ha"],
+                "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
                 "./src/6/temp.png",
@@ -191,15 +191,15 @@
             "name": "yui",
             "presentChance": 0.40,
             "script": {
-                "chairL": ["",""],
-                "chairR": ["",""],
-                "whiteBoardL": ["",""],
-                "whiteBoardR": ["",""],
-                "tableL": ["",""],
-                "tableC": ["",""],
-                "tableR": ["",""],
-                "windowL": ["",""],
-                "windowR": ["",""]
+                "chairL": ["hmmm","ha ha ha"],
+                "chairR": ["hmmm","ha ha ha"],
+                "whiteBoardL": ["hmmm","ha ha ha"],
+                "whiteBoardR": ["hmmm","ha ha ha"],
+                "tableL": ["hmmm","ha ha ha"],
+                "tableC": ["hmmm","ha ha ha"],
+                "tableR": ["hmmm","ha ha ha"],
+                "windowL": ["hmmm","ha ha ha"],
+                "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
                 "./src/7/temp.png",
