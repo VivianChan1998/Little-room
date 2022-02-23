@@ -21,6 +21,7 @@ let script = []
 let img = []
 let blackboard = []
 let blackboardID = 0
+let table = ''
 
 function preload()
 {
@@ -37,23 +38,24 @@ function preload()
             All.push(char)
             script.push(mem["script"])
             let temp = []
-            for (var j=0; j < 9; ++j)
-            {
-                loadImage(mem['img'][j], e => {
-                    temp.push(e)
-                    img[mem.code] = temp
-                })
-            }
+            loadNext(0, temp, img, mem)
         }
-        console.log(isHere)
-        console.log(All)
     });
     for (var j=0; j < 5; ++j)
     {
         loadImage(`./src/background/blackboard/${j}.png`, e => blackboard.push(e) )
     }
     blackboardID = Math.floor(Math.random() * 10) 
-    console.log(blackboardID)
+    loadImage('./src/background/front.png', e => table = e)
+}
+
+function loadNext (j, temp, img, mem)
+{
+    loadImage(mem['img'][j], e => {
+        temp.push(e)
+        img[mem.code] = temp
+        if (j+1 < 9) loadNext(j+1, temp, img, mem)
+    })
 }
 
 function setup()
@@ -65,19 +67,27 @@ function setup()
 function draw()
 {
     clear();
-    line(0, 0, 900, 500);
-    animation(explode_animation, 450, 250);
+    line(0, 0, 900, 500); //temp
 
+    //background
+    animation(explode_animation, 450, 250);
+    //blackboard
+    if (blackboardID < 5) image(blackboard[blackboardID], 0, 0, 900, 500)
+
+    //tables
+    image(table, 0, 0, 900, 500)
+
+    //members
     for(var i=0; i<8; ++i)
     {
         if(isHere[i])
         {
             let l = loc[i]
-            let onScreenImg = image(img[i][l], locXY[l][0], locXY[l][1], 160, 200)
+            let onScreenImg = image(img[i][l], 0, 0, 900, 500)
             //onScreenImg.mouseOver(() => console.log(script[i][locList[l]][0]))
         }
     }
-    if (blackboardID < 5) image(blackboard[blackboardID], 0, 0, 900, 500)
+    
 
 }
 

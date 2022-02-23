@@ -16,15 +16,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/0/temp.png",
-                "./src/0/temp.png",
-                "./src/0/temp.png",
-                "./src/0/temp.png",
-                "./src/0/temp.png",
-                "./src/0/temp.png",
-                "./src/0/temp.png",
-                "./src/0/temp.png",
-                "./src/0/temp.png"
+                "./src/5/chairL.png",
+                "./src/5/chairR.png",
+                "./src/5/whiteboardL.png",
+                "./src/5/whiteboardR.png",
+                "./src/5/tableL.png",
+                "./src/5/tableC.png",
+                "./src/5/tableR.png",
+                "./src/5/windowL.png",
+                "./src/5/windowR.png"
             ]
         },
         {
@@ -43,15 +43,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/1/temp.png",
-                "./src/1/temp.png",
-                "./src/1/temp.png",
-                "./src/1/temp.png",
-                "./src/1/temp.png",
-                "./src/1/temp.png",
-                "./src/1/temp.png",
-                "./src/1/temp.png",
-                "./src/1/temp.png"
+                "./src/1/chairL.png",
+                "./src/1/chairR.png",
+                "./src/1/whiteboardL.png",
+                "./src/1/whiteboardR.png",
+                "./src/1/tableL.png",
+                "./src/1/tableC.png",
+                "./src/1/tableR.png",
+                "./src/1/windowL.png",
+                "./src/1/windowR.png"
             ]
         },{
             "code": 2,
@@ -69,15 +69,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/2/temp.png",
-                "./src/2/temp.png",
-                "./src/2/temp.png",
-                "./src/2/temp.png",
-                "./src/2/temp.png",
-                "./src/2/temp.png",
-                "./src/2/temp.png",
-                "./src/2/temp.png",
-                "./src/2/temp.png"
+                "./src/2/chairL.png",
+                "./src/2/chairR.png",
+                "./src/2/whiteboardL.png",
+                "./src/2/whiteboardR.png",
+                "./src/2/tableL.png",
+                "./src/2/tableC.png",
+                "./src/2/tableR.png",
+                "./src/2/windowL.png",
+                "./src/2/windowR.png"
             ]
         },
         {
@@ -96,15 +96,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/3/temp.png",
-                "./src/3/temp.png",
-                "./src/3/temp.png",
-                "./src/3/temp.png",
-                "./src/3/temp.png",
-                "./src/3/temp.png",
-                "./src/3/temp.png",
-                "./src/3/temp.png",
-                "./src/3/temp.png"
+                "./src/5/chairL.png",
+                "./src/5/chairR.png",
+                "./src/5/whiteboardL.png",
+                "./src/5/whiteboardR.png",
+                "./src/5/tableL.png",
+                "./src/5/tableC.png",
+                "./src/5/tableR.png",
+                "./src/5/windowL.png",
+                "./src/5/windowR.png"
             ]
         },
         {
@@ -123,15 +123,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/4/temp.png",
-                "./src/4/temp.png",
-                "./src/4/temp.png",
-                "./src/4/temp.png",
-                "./src/4/temp.png",
-                "./src/4/temp.png",
-                "./src/4/temp.png",
-                "./src/4/temp.png",
-                "./src/4/temp.png"
+                "./src/5/chairL.png",
+                "./src/5/chairR.png",
+                "./src/5/whiteboardL.png",
+                "./src/5/whiteboardR.png",
+                "./src/5/tableL.png",
+                "./src/5/tableC.png",
+                "./src/5/tableR.png",
+                "./src/5/windowL.png",
+                "./src/5/windowR.png"
             ]
         },
         {
@@ -150,15 +150,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/5/temp.png",
-                "./src/5/temp.png",
-                "./src/5/temp.png",
-                "./src/5/temp.png",
-                "./src/5/temp.png",
-                "./src/5/temp.png",
-                "./src/5/temp.png",
-                "./src/5/temp.png",
-                "./src/5/temp.png"
+                "./src/5/chairL.png",
+                "./src/5/chairR.png",
+                "./src/5/whiteboardL.png",
+                "./src/5/whiteboardR.png",
+                "./src/5/tableL.png",
+                "./src/5/tableC.png",
+                "./src/5/tableR.png",
+                "./src/5/windowL.png",
+                "./src/5/windowR.png"
             ]
         },{
             "code": 6,
@@ -176,15 +176,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/6/temp.png",
-                "./src/6/temp.png",
-                "./src/6/temp.png",
-                "./src/6/temp.png",
-                "./src/6/temp.png",
-                "./src/6/temp.png",
-                "./src/6/temp.png",
-                "./src/6/temp.png",
-                "./src/6/temp.png"
+                "./src/5/chairL.png",
+                "./src/5/chairR.png",
+                "./src/5/whiteboardL.png",
+                "./src/5/whiteboardR.png",
+                "./src/5/tableL.png",
+                "./src/5/tableC.png",
+                "./src/5/tableR.png",
+                "./src/5/windowL.png",
+                "./src/5/windowR.png"
             ]
         },{
             "code": 7,
@@ -202,15 +202,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/7/temp.png",
-                "./src/7/temp.png",
-                "./src/7/temp.png",
-                "./src/7/temp.png",
-                "./src/7/temp.png",
-                "./src/7/temp.png",
-                "./src/7/temp.png",
-                "./src/7/temp.png",
-                "./src/7/temp.png"
+                "./src/5/chairL.png",
+                "./src/5/chairR.png",
+                "./src/5/whiteboardL.png",
+                "./src/5/whiteboardR.png",
+                "./src/5/tableL.png",
+                "./src/5/tableC.png",
+                "./src/5/tableR.png",
+                "./src/5/windowL.png",
+                "./src/5/windowR.png"
             ]
         }
     ]
