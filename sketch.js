@@ -98,7 +98,7 @@ function draw()
         if (who != 8 && isHere[who])
         {
             let l = loc[who]
-            image(img[who][l], 0, 0, 900, 500)
+            if(img.length > who && img[who].length > l) image(img[who][l], 0, 0, 900, 500)
         }
     }
 
@@ -112,8 +112,6 @@ function draw()
         if (who != 8 && isHere[who])
         {
             let l = loc[who]
-            console.log(l)
-            console.log(who)
             if(img.length > who && img[who].length > l) image(img[who][l], 0, 0, 900, 500)
         }
     }
