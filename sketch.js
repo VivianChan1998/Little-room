@@ -137,6 +137,12 @@ function resetScene()
     blackboardID = Math.floor(Math.random() * 10) 
     setLoc()
     resetFlag = true
+    for(var i=0; i<All.length; ++i)
+    {
+        let present = Math.random() < All[i].presentChance? 1:0
+        isHere[i] = present
+    }
+    
 }
 
 function setLoc()
