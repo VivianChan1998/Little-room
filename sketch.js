@@ -9,6 +9,13 @@ let locschar = [0, 0, 0, 0, 0, 0, 0, 0, 0] //index as loc id, locschar[0] ==> wh
 const frontLoc = [0,1,4,6]
 const backLoc = [2,3,7,8,5]
 
+const blackboardUrl = ["https://res.cloudinary.com/vchan/image/upload/v1645809018/little-room/0_jyib8o.png",
+"https://res.cloudinary.com/vchan/image/upload/v1645809018/little-room/1_kifhoo.png",
+"https://res.cloudinary.com/vchan/image/upload/v1645809018/little-room/2_rnbxdx.png",
+"https://res.cloudinary.com/vchan/image/upload/v1645809018/little-room/3_ibbbqf.png",
+"https://res.cloudinary.com/vchan/image/upload/v1645809018/little-room/4_ljye5c.png"
+]
+
 let isHere = [0, 0, 0, 0, 0, 0, 0, 0]
 setLoc()
 
@@ -28,7 +35,7 @@ let minutehand;
 
 function preload()
 {
-    spriteSheet = loadSpriteSheet('/src/background/day.png', 900, 500, 3);
+    spriteSheet = loadSpriteSheet('https://res.cloudinary.com/vchan/image/upload/v1645809207/little-room/day_jnmsjt.png', 900, 500, 3);
     explode_animation = loadAnimation(spriteSheet);
     fetch("./data.json")
     .then(response => { return response.json(); })
@@ -46,13 +53,13 @@ function preload()
     });
     for (var j=0; j < 5; ++j)
     {
-        loadImage(`/src/background/blackboard/${j}.png`, e => blackboard.push(e) )
+        loadImage(blackboardUrl[j], e => blackboard.push(e) )
     }
     blackboardID = Math.floor(Math.random() * 10) 
-    loadImage('/src/background/front.png', e => table = e)
-    loadImage('./src/background/clock.png', e => clock = e)
-    loadImage('./src/background/hour.png', e => hourhand = e)
-    loadImage('./src/background/minute.png', e => minutehand = e)
+    loadImage('https://res.cloudinary.com/vchan/image/upload/v1645809207/little-room/front_nch3il.png', e => table = e)
+    loadImage('https://res.cloudinary.com/vchan/image/upload/v1645809207/little-room/clock_ucvy93.png', e => clock = e)
+    loadImage('https://res.cloudinary.com/vchan/image/upload/v1645809207/little-room/hour_ck6vq1.png', e => hourhand = e)
+    loadImage('https://res.cloudinary.com/vchan/image/upload/v1645809207/little-room/minute_ys6ivg.png', e => minutehand = e)
 }
 
 function loadNext (j, temp, img, mem)
@@ -150,3 +157,16 @@ function shuffle(array) {
     }
     return array
 }
+
+
+
+/********
+ * 
+ * 
+ * CREATE DEV branch and reupload image to online source
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
