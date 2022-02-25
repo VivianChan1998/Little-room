@@ -106,8 +106,7 @@ function draw()
     image(table, 0, 0, 900, 500)
 
     //members in front
-    console.log(img.length == 8)
-    for (var i=0; i<frontLoc.length && img.length == 8; ++i)
+    for (var i=0; i<frontLoc.length; ++i)
     {
         let who = locschar[frontLoc[i]]
         if (who != 8 && isHere[who])
@@ -115,7 +114,7 @@ function draw()
             let l = loc[who]
             console.log(l)
             console.log(who)
-            image(img[who][l], 0, 0, 900, 500)
+            if(img.length > who && img[who].length > l) image(img[who][l], 0, 0, 900, 500)
         }
     }
 
