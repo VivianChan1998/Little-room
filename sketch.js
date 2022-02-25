@@ -92,7 +92,7 @@ function draw()
     if (blackboardID < 5) image(blackboard[blackboardID], 0, 0, 900, 500)
 
     //members in back
-    for (var i=0; i<backLoc.length; ++i)
+    for (var i=0; i<backLoc.length && img.length == 8; ++i)
     {
         let who = locschar[backLoc[i]]
         if (who != 8 && isHere[who])
@@ -106,7 +106,8 @@ function draw()
     image(table, 0, 0, 900, 500)
 
     //members in front
-    for (var i=0; i<frontLoc.length; ++i)
+    console.log(img.length == 8)
+    for (var i=0; i<frontLoc.length && img.length == 8; ++i)
     {
         let who = locschar[frontLoc[i]]
         if (who != 8 && isHere[who])
