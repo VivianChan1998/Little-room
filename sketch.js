@@ -77,7 +77,7 @@ function setup()
     frameRate(10);
     t_m = minute()
     t_h = hour()
-    let timeoutID = window.setInterval(( () => resetScene() ), 60000);
+    let timeoutID = window.setInterval(( () => resetScene() ), 30000);
 }
 
 function draw()
@@ -142,6 +142,7 @@ function resetScene()
         let present = Math.random() < All[i].presentChance? 1:0
         isHere[i] = present
     }
+    console.log(isHere)
     
 }
 
