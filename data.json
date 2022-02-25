@@ -3,7 +3,7 @@
         {
             "code": 0,
             "name": "wu",
-            "presentChance": 0.15,
+            "presentChance": 0,
             "scrpit": {
                 "chairL": ["hmmm","ha ha ha"],
                 "chairR": ["hmmm","ha ha ha"],
@@ -96,15 +96,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/5/chairL.png",
-                "./src/5/chairR.png",
-                "./src/5/whiteboardL.png",
-                "./src/5/whiteboardR.png",
-                "./src/5/tableL.png",
-                "./src/5/tableC.png",
-                "./src/5/tableR.png",
-                "./src/5/windowL.png",
-                "./src/5/windowR.png"
+                "./src/3/chairL.png",
+                "./src/3/chairR.png",
+                "./src/3/whiteboardL.png",
+                "./src/3/whiteboardR.png",
+                "./src/3/tableL.png",
+                "./src/3/tableC.png",
+                "./src/3/tableR.png",
+                "./src/3/windowL.png",
+                "./src/3/windowR.png"
             ]
         },
         {
@@ -123,15 +123,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/5/chairL.png",
-                "./src/5/chairR.png",
-                "./src/5/whiteboardL.png",
-                "./src/5/whiteboardR.png",
-                "./src/5/tableL.png",
-                "./src/5/tableC.png",
-                "./src/5/tableR.png",
-                "./src/5/windowL.png",
-                "./src/5/windowR.png"
+                "./src/4/chairL.png",
+                "./src/4/chairR.png",
+                "./src/4/whiteboardL.png",
+                "./src/4/whiteboardR.png",
+                "./src/4/tableL.png",
+                "./src/4/tableC.png",
+                "./src/4/tableR.png",
+                "./src/4/windowL.png",
+                "./src/4/windowR.png"
             ]
         },
         {
@@ -163,7 +163,7 @@
         },{
             "code": 6,
             "name": "sa",
-            "presentChance": 0.45,
+            "presentChance": 0,
             "scrpit": {
                 "chairL": ["hmmm","ha ha ha"],
                 "chairR": ["hmmm","ha ha ha"],
@@ -189,7 +189,7 @@
         },{
             "code": 7,
             "name": "yui",
-            "presentChance": 0.40,
+            "presentChance": 0,
             "script": {
                 "chairL": ["hmmm","ha ha ha"],
                 "chairR": ["hmmm","ha ha ha"],
