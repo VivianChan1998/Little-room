@@ -16,15 +16,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/5/chairL.png",
-                "./src/5/chairR.png",
-                "./src/5/whiteboardL.png",
-                "./src/5/whiteboardR.png",
-                "./src/5/tableL.png",
-                "./src/5/tableC.png",
-                "./src/5/tableR.png",
-                "./src/5/windowL.png",
-                "./src/5/windowR.png"
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/chairL_gar6sq.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/chairR_kbzu5h.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/whiteboardL_tv279g.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/whiteboardR_rplgs4.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/tableL_vst1zc.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/tableC_zdgez9.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/tableR_pmdvnp.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809880/little-room/5/windowL_otwd5m.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809880/little-room/5/windowR_ervzah.png"
             ]
         },
         {
@@ -43,15 +43,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/1/chairL.png",
-                "./src/1/chairR.png",
-                "./src/1/whiteboardL.png",
-                "./src/1/whiteboardR.png",
-                "./src/1/tableL.png",
-                "./src/1/tableC.png",
-                "./src/1/tableR.png",
-                "./src/1/windowL.png",
-                "./src/1/windowR.png"
+                "https://res.cloudinary.com/vchan/image/upload/v1645809515/little-room/1/chairL_s0mjyv.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809515/little-room/1/chairR_kvjgvs.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809516/little-room/1/whiteboardL_cofwoo.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809516/little-room/1/whiteboardR_set2z7.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809515/little-room/1/tableL_z7x3ty.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809515/little-room/1/tableC_rrx3ln.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809515/little-room/1/tableR_u1b56g.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809516/little-room/1/windowL_jmihfl.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809516/little-room/1/windowR_vspkzr.png"
             ]
         },{
             "code": 2,
@@ -69,15 +69,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/2/chairL.png",
-                "./src/2/chairR.png",
-                "./src/2/whiteboardL.png",
-                "./src/2/whiteboardR.png",
-                "./src/2/tableL.png",
-                "./src/2/tableC.png",
-                "./src/2/tableR.png",
-                "./src/2/windowL.png",
-                "./src/2/windowR.png"
+                "https://res.cloudinary.com/vchan/image/upload/v1645809618/little-room/2/chairL_eco4tt.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809618/little-room/2/chairR_hnnkdv.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809618/little-room/2/whiteboardL_f4tbv7.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809618/little-room/2/whiteboardR_lau8sr.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809618/little-room/2/tableL_htgozr.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809618/little-room/2/tableC_usujop.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809618/little-room/2/tableR_vl6svr.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809618/little-room/2/windowL_vivxbm.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809618/little-room/2/windowR_vljmfc.png"
             ]
         },
         {
@@ -96,15 +96,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/3/chairL.png",
-                "./src/3/chairR.png",
-                "./src/3/whiteboardL.png",
-                "./src/3/whiteboardR.png",
-                "./src/3/tableL.png",
-                "./src/3/tableC.png",
-                "./src/3/tableR.png",
-                "./src/3/windowL.png",
-                "./src/3/windowR.png"
+                "https://res.cloudinary.com/vchan/image/upload/v1645809705/little-room/3/chairL_ovkxnf.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809705/little-room/3/chairR_z05v3u.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809706/little-room/3/whiteboardL_zdgotm.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809706/little-room/3/whiteboardR_rmuywl.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809705/little-room/3/tableL_tt61cc.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809705/little-room/3/tableC_xselpn.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809705/little-room/3/tableR_zwe5tj.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809706/little-room/3/windowL_nzojaw.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809706/little-room/3/windowR_fzp1hn.png"
             ]
         },
         {
@@ -123,15 +123,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/4/chairL.png",
-                "./src/4/chairR.png",
-                "./src/4/whiteboardL.png",
-                "./src/4/whiteboardR.png",
-                "./src/4/tableL.png",
-                "./src/4/tableC.png",
-                "./src/4/tableR.png",
-                "./src/4/windowL.png",
-                "./src/4/windowR.png"
+                "https://res.cloudinary.com/vchan/image/upload/v1645809811/little-room/4/chairL_fmmo8i.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809811/little-room/4/chairR_jmyg15.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809811/little-room/4/whiteboardL_mqqyzt.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809811/little-room/4/whiteboardR_v1bqqg.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809811/little-room/4/tableL_ar8mzh.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809811/little-room/4/tableC_mi4igp.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809811/little-room/4/tableR_eh0o6t.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809812/little-room/4/windowL_oepmxg.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809812/little-room/4/windowR_wb722a.png"
             ]
         },
         {
@@ -150,15 +150,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/5/chairL.png",
-                "./src/5/chairR.png",
-                "./src/5/whiteboardL.png",
-                "./src/5/whiteboardR.png",
-                "./src/5/tableL.png",
-                "./src/5/tableC.png",
-                "./src/5/tableR.png",
-                "./src/5/windowL.png",
-                "./src/5/windowR.png"
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/chairL_gar6sq.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/chairR_kbzu5h.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/whiteboardL_tv279g.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/whiteboardR_rplgs4.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/tableL_vst1zc.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/tableC_zdgez9.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/tableR_pmdvnp.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809880/little-room/5/windowL_otwd5m.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809880/little-room/5/windowR_ervzah.png"
             ]
         },{
             "code": 6,
@@ -176,15 +176,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/5/chairL.png",
-                "./src/5/chairR.png",
-                "./src/5/whiteboardL.png",
-                "./src/5/whiteboardR.png",
-                "./src/5/tableL.png",
-                "./src/5/tableC.png",
-                "./src/5/tableR.png",
-                "./src/5/windowL.png",
-                "./src/5/windowR.png"
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/chairL_gar6sq.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/chairR_kbzu5h.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/whiteboardL_tv279g.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/whiteboardR_rplgs4.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/tableL_vst1zc.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/tableC_zdgez9.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/tableR_pmdvnp.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809880/little-room/5/windowL_otwd5m.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809880/little-room/5/windowR_ervzah.png"
             ]
         },{
             "code": 7,
@@ -202,15 +202,15 @@
                 "windowR": ["hmmm","ha ha ha"]
             },
             "img": [
-                "./src/5/chairL.png",
-                "./src/5/chairR.png",
-                "./src/5/whiteboardL.png",
-                "./src/5/whiteboardR.png",
-                "./src/5/tableL.png",
-                "./src/5/tableC.png",
-                "./src/5/tableR.png",
-                "./src/5/windowL.png",
-                "./src/5/windowR.png"
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/chairL_gar6sq.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/chairR_kbzu5h.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/whiteboardL_tv279g.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/whiteboardR_rplgs4.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/tableL_vst1zc.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/tableC_zdgez9.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809879/little-room/5/tableR_pmdvnp.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809880/little-room/5/windowL_otwd5m.png",
+                "https://res.cloudinary.com/vchan/image/upload/v1645809880/little-room/5/windowR_ervzah.png"
             ]
         }
     ]
