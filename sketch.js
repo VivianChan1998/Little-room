@@ -28,7 +28,7 @@ let minutehand;
 
 function preload()
 {
-    spriteSheet = loadSpriteSheet('./src/background/day.png', 900, 500, 3);
+    spriteSheet = loadSpriteSheet('/src/background/day.png', 900, 500, 3);
     explode_animation = loadAnimation(spriteSheet);
     fetch("./data.json")
     .then(response => { return response.json(); })
@@ -46,10 +46,10 @@ function preload()
     });
     for (var j=0; j < 5; ++j)
     {
-        loadImage(`./src/background/blackboard/${j}.png`, e => blackboard.push(e) )
+        loadImage(`/src/background/blackboard/${j}.png`, e => blackboard.push(e) )
     }
     blackboardID = Math.floor(Math.random() * 10) 
-    loadImage('./src/background/front.png', e => table = e)
+    loadImage('/src/background/front.png', e => table = e)
     loadImage('./src/background/clock.png', e => clock = e)
     loadImage('./src/background/hour.png', e => hourhand = e)
     loadImage('./src/background/minute.png', e => minutehand = e)
