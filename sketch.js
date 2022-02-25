@@ -111,9 +111,7 @@ function draw()
     //clock
     t_m = minute()
     t_h = hour()
-    console.log(t_h%12)
     image(clock, 450, 20, 84, 84)
-    //image(hourhand, 450, 20, 84, 84)
 
     push()
     translate(492, 62);
@@ -124,12 +122,7 @@ function draw()
     translate(492, 62);
     rotate(2 * PI / 12 * (t_h%12));
     image(hourhand, -42, -42, 84, 84)
-    
 
-    
-    
-    
-    
 }
 
 function resetScene()
