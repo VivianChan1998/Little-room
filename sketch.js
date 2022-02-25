@@ -70,7 +70,7 @@ function setup()
     frameRate(10);
     t_m = minute()
     t_h = hour()
-    let timeoutID = window.setInterval(( () => resetScene() ), 60000 * 2);
+    let timeoutID = window.setInterval(( () => resetScene() ), 60000);
 }
 
 function draw()
@@ -108,12 +108,27 @@ function draw()
         }
     }
 
-    //time system
-    /*t_m = minute()
-    if(t_m % 2 == 0 && !resetFlag) resetScene()
-    else if (t_m % 2 != 0) resetFlag = false
-    console.log(t_m)
-    */
+    //clock
+    t_m = minute()
+    t_h = hour()
+    console.log(t_h%12)
+    image(clock, 450, 20, 84, 84)
+    //image(hourhand, 450, 20, 84, 84)
+
+    push()
+    translate(492, 62);
+    rotate(2 * PI/60*t_m);
+    image(minutehand, -42, -42, 84, 84)
+    pop()
+
+    translate(492, 62);
+    rotate(2 * PI / 12 * (t_h%12));
+    image(hourhand, -42, -42, 84, 84)
+    
+
+    
+    
+    
     
 }
 
