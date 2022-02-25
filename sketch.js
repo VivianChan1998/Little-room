@@ -83,7 +83,6 @@ function setup()
 function draw()
 {
     clear();
-    console.log(img)
 
     //background
     animation(explode_animation, 450, 250);
