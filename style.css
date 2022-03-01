@@ -9,3 +9,27 @@ body {
     width: 800px;
     margin-top: 10vh;
 }
+
+.centered {
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translate(-50%, 0);
+    margin-top: 10vh;
+    width: 900px;
+    height: 500px;
+}
+
+#evening {
+    display: none;
+    
+    background-color: rgba(255, 83, 52, 0.185);
+    background-blend-mode: darken;
+}
+
+#night {
+    display: none;
+    
+    background-color: rgba(47, 67, 83, 0.397);
+    background-blend-mode: color;
+  }

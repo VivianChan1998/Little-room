@@ -77,7 +77,7 @@ function setup()
     frameRate(10);
     t_m = minute()
     t_h = hour()
-    let timeoutID = window.setInterval(( () => resetScene() ), 30000);
+    let timeoutID = window.setInterval(( () => resetScene() ), 60000);
 }
 
 function draw()
@@ -165,15 +165,3 @@ function shuffle(array) {
     return array
 }
 
-
-
-/********
- * 
- * 
- * CREATE DEV branch and reupload image to online source
- * 
- * 
- * 
- * 
- * 
- */
