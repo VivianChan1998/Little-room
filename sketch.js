@@ -1,6 +1,7 @@
 let spritesheet;
 let spritedata;
 var explode_animation;
+var REFRESH_TIME = 120000;
 
 const locList = [ "chairL", "chairR", "whiteBoardL", "whiteBoardR", "tableL", "tableC", "tableR", "windowL", "windowR"]
 const locXY = [[20,250], [250,250], [350,200], [460,200], [430,260], [570,200], [730,250], [160,180], [650,180]]
@@ -36,6 +37,8 @@ let minutehand;
 function preload()
 {
     spriteSheet = loadSpriteSheet('https://res.cloudinary.com/vchan/image/upload/v1645809207/little-room/day_jnmsjt.png', 900, 500, 3);
+    //https://res.cloudinary.com/vchan/image/upload/v1673310597/little-room/evening_gungbh.png
+    //https://res.cloudinary.com/vchan/image/upload/v1673311406/little-room/night_cglh53.png
     explode_animation = loadAnimation(spriteSheet);
     fetch("./data.json")
     .then(response => { return response.json(); })
@@ -77,7 +80,7 @@ function setup()
     frameRate(10);
     t_m = minute()
     t_h = hour()
-    let timeoutID = window.setInterval(( () => resetScene() ), 60000);
+    let timeoutID = window.setInterval(( () => resetScene() ), REFRESH_TIME);
 }
 
 function draw()

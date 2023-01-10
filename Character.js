@@ -8,10 +8,4 @@ class Character
         this.location = location
         this.isPresent = isPresent
     }
-
-    shuffle()
-    {
-
-    }
-
 }

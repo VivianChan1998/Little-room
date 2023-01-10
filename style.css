@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(233, 195, 169);
+    background-color: rgb(239, 191, 180);
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(68, 68, 68);
 }
 
 .p5Canvas {
@@ -21,15 +23,11 @@ body {
 }
 
 #evening {
-    display: none;
-    
-    background-color: rgba(255, 83, 52, 0.185);
-    background-blend-mode: darken;
+    background-color: rgba(248, 153, 136, 0.131);
+    mix-blend-mode: multiply;
 }
 
 #night {
-    display: none;
-    
-    background-color: rgba(47, 67, 83, 0.397);
-    background-blend-mode: color;
+    background-color: rgba(69, 171, 255, 0.135);
+    mix-blend-mode: color;
   }
