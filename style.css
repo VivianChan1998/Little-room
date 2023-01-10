@@ -28,6 +28,7 @@ body {
 }
 
 #night {
+    display:none; /*TEMP*/
     background-color: rgba(69, 171, 255, 0.135);
     mix-blend-mode: color;
   }
