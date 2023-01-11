@@ -1,7 +1,10 @@
-let spritesheet;
-let spritedata;
-var explode_animation;
+var animation_day;
+var animation_eve;
+var animation_nig;
 var REFRESH_TIME = 120000;
+var timeOfDay = 'DAY';
+
+let animation_curr;
 
 const locList = [ "chairL", "chairR", "whiteBoardL", "whiteBoardR", "tableL", "tableC", "tableR", "windowL", "windowR"]
 const locXY = [[20,250], [250,250], [350,200], [460,200], [430,260], [570,200], [730,250], [160,180], [650,180]]
@@ -27,19 +30,28 @@ let blackboard = []
 let blackboardID = 0
 let table = ''
 
-let t_m = 0
-let t_h = 0
+let t_m;
+let t_h;
 let resetFlag = false
 let clock;
 let hourhand;
 let minutehand;
 
+let ColorFilter = document.getElementsByClassName('color-filter')[0];
+
 function preload()
 {
-    spriteSheet = loadSpriteSheet('https://res.cloudinary.com/vchan/image/upload/v1645809207/little-room/day_jnmsjt.png', 900, 500, 3);
-    //https://res.cloudinary.com/vchan/image/upload/v1673310597/little-room/evening_gungbh.png
-    //https://res.cloudinary.com/vchan/image/upload/v1673311406/little-room/night_cglh53.png
-    explode_animation = loadAnimation(spriteSheet);
+
+    spriteSheet_day = loadSpriteSheet('https://res.cloudinary.com/vchan/image/upload/v1645809207/little-room/day_jnmsjt.png', 900, 500, 3);
+    spriteSheet_eve = loadSpriteSheet('https://res.cloudinary.com/vchan/image/upload/v1673310597/little-room/evening_gungbh.png', 900, 500, 3);
+    spriteSheet_nig = loadSpriteSheet('https://res.cloudinary.com/vchan/image/upload/v1673311406/little-room/night_cglh53.png', 900, 500, 3);
+    
+    animation_day = loadAnimation(spriteSheet_day);
+    animation_eve = loadAnimation(spriteSheet_eve);
+    animation_nig = loadAnimation(spriteSheet_nig);
+
+    animation_curr = animation_day;
+
     fetch("./data.json")
     .then(response => { return response.json(); })
     .then(jsondata => {
@@ -51,9 +63,12 @@ function preload()
             All.push(char)
             script.push(mem["script"])
             let temp = []
+            t_m = minute()
+            t_h = hour()
             loadNext(0, temp, img, mem)
         }
     });
+
     for (var j=0; j < 5; ++j)
     {
         loadImage(blackboardUrl[j], e => blackboard.push(e) )
@@ -80,6 +95,7 @@ function setup()
     frameRate(10);
     t_m = minute()
     t_h = hour()
+    setTimeOfDay()
     let timeoutID = window.setInterval(( () => resetScene() ), REFRESH_TIME);
 }
 
@@ -88,7 +104,7 @@ function draw()
     clear();
 
     //background
-    animation(explode_animation, 450, 250);
+    animation(animation_curr, 450, 250);
 
     //blackboard
     if (blackboardID < 5) image(blackboard[blackboardID], 0, 0, 900, 500)
@@ -146,18 +162,46 @@ function resetScene()
         isHere[i] = present
     }
     console.log(isHere)
-    
+
+    setTimeOfDay()
 }
 
 function setLoc()
 {
-    console.log(loc)
     loc = shuffle(loc)
     for (var i=0; i<9; ++i)
     {
         locschar[loc[i]] = i
     }
-    console.log(loc)
+
+}
+
+function setTimeOfDay()
+{
+    if (t_h > 16 && t_h <= 20) timeOfDay = 'EVE'
+    else if ( t_h > 20 || t_h < 6) timeOfDay = 'NIG'
+    else timeOfDay = 'DAY'
+
+    print(ColorFilter)
+
+    if (timeOfDay == 'EVE') 
+    {
+        animation_curr = animation_eve;
+        ColorFilter.setAttribute('id','evening');
+        document.body.setAttribute('id', 'eve-bg')
+    }
+    else if (timeOfDay == 'NIG')
+    {
+        animation_curr = animation_nig;
+        ColorFilter.setAttribute('id','night');
+        document.body.setAttribute('id', 'nig-bg')
+    }
+    else
+    {
+        animation_curr = animation_day;
+        ColorFilter.setAttribute('id','');
+        document.body.setAttribute('id', 'day-bg')
+    }
 }
 
 function shuffle(array) {

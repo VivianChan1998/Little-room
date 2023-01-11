@@ -4,12 +4,25 @@ body {
     color:rgb(68, 68, 68);
 }
 
+#day-bg {
+    background-color: rgb(239, 191, 180);
+}
+
+#eve-bg {
+    background-color: rgb(200, 150, 172);
+}
+
+#nig-bg {
+    background-color: rgb(128, 133, 169);
+}
+
 .p5Canvas {
     padding: 0;
     margin: auto;
     display: block;
     width: 800px;
     margin-top: 10vh;
+    border-radius: 20px;
 }
 
 .centered {
@@ -20,15 +33,15 @@ body {
     margin-top: 10vh;
     width: 900px;
     height: 500px;
+    border-radius: 20px;
 }
 
 #evening {
-    background-color: rgba(248, 153, 136, 0.131);
+    background-color: rgba(241, 140, 122, 0.375);
     mix-blend-mode: multiply;
 }
 
 #night {
-    display:none; /*TEMP*/
-    background-color: rgba(69, 171, 255, 0.135);
+    background-color: rgba(23, 113, 187, 0.118);
     mix-blend-mode: color;
-  }
+}
