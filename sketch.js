@@ -161,8 +161,6 @@ function resetScene()
         let present = Math.random() < All[i].presentChance? 1:0
         isHere[i] = present
     }
-    console.log(isHere)
-
     setTimeOfDay()
 }
 
@@ -173,7 +171,6 @@ function setLoc()
     {
         locschar[loc[i]] = i
     }
-
 }
 
 function setTimeOfDay()
@@ -181,8 +178,6 @@ function setTimeOfDay()
     if (t_h > 16 && t_h <= 20) timeOfDay = 'EVE'
     else if ( t_h > 20 || t_h < 6) timeOfDay = 'NIG'
     else timeOfDay = 'DAY'
-
-    print(ColorFilter)
 
     if (timeOfDay == 'EVE') 
     {
