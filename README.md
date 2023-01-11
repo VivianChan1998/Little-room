@@ -15,4 +15,4 @@ A little room where people just come hang out and do their own stuff.
 ![](https://imgur.com/ouMDMdV.png) | ![](https://imgur.com/0NAIcBv.png)
 
 
-All images rights reserved.
+Please don't use my artwork for other purposes.
